@@ -9,7 +9,6 @@ exports.getCurrentWeather =  async (req, res) => {
         const { city } = req.params;
 
         let response = await getCurrentWeatherService(city);
-
         let weather =`Mostly ${response.data.weather[0].description} today`
         let temperature= `The Temerature in ${city} is ${Math.floor((response.data.main.temp)-273.15)} Degree Celsius`;
         let pressure = `${response.data.main.pressure}hpa`;

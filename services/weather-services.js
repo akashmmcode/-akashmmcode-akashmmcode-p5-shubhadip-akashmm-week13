@@ -5,8 +5,6 @@ const api_key = process.env.API_KEY;
 exports.getCurrentWeatherService = async (city) => {
   try {
 
-    // console.log(city);
-    // console.log(api_key);
     let response = await axios(`http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${api_key}`);
     return response;
   } catch (error) {

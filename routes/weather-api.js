@@ -6,8 +6,8 @@ const {getCurrentWeather,getCurrentWeatherForMultipleDays} = require("../control
 const router = express.Router();
 
 
-router.route("/weather/:city").post(getCurrentWeather);
-router.route("/weather/:city/:dayscount").post(getCurrentWeatherForMultipleDays);
+router.route("/weather/:city").get(getCurrentWeather);
+router.route("/weather/:city/:dayscount").get(getCurrentWeatherForMultipleDays);
 
 
 

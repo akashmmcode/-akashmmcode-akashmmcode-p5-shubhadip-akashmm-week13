@@ -7,7 +7,7 @@ const app = express();
 
 app.use(bodyParser.json());
 
-app.use('/users',weatherAPIRoutes);
+app.use('/',weatherAPIRoutes);
 
 
 app.listen(process.env.PORT,()=>console.log(`Server is running on port: http://localhost:${process.env.PORT}`));
