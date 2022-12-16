@@ -3,12 +3,12 @@ akashmmcode-akashmmcode-p5-shubhadip-akashmm-week13
 # Weather App
 
 ## How to use
-  Clone the repo
-  cd into the repo P5-Shubhadip-JimishGajjar-Week-13-Backend
-  Run npm install
-  Run npm start
-  Open http://localhost:4000/ in your browser
-  Access my site at [google.com](https://google.com)
+  1 - Clone the repo
+  2 - cd into the repo P5-Shubhadip-JimishGajjar-Week-13-Backend
+  3 - Run npm install
+  4 - Run npm start
+  5 - Open http://localhost:4000/ in your browser
+  6 - Access my site at [google.com](https://google.com)
 
 ## Table of Content:
 
