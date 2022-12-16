@@ -1,10 +1,14 @@
 akashmmcode-akashmmcode-p5-shubhadip-akashmm-week13
 
-# Project Title
-The name of the Project
+# Weather App
 
-## Demo link:
-Access my site at [google.com](https://google.com)
+## How to use
+  Clone the repo
+  cd into the repo P5-Shubhadip-JimishGajjar-Week-13-Backend
+  Run npm install
+  Run npm start
+  Open http://localhost:4000/ in your browser
+  Access my site at [google.com](https://google.com)
 
 ## Table of Content:
 
