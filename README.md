@@ -16,7 +16,7 @@ akashmmcode-akashmmcode-p5-shubhadip-akashmm-week13
 ### Requesting weather data of a particular city
 
 ```
-http://localhost:5000/users/weather/amsterdam
+http://localhost:5000/weather/amsterdam
 ```
 
 ## Response
@@ -36,7 +36,7 @@ http://localhost:5000/users/weather/amsterdam
 ### Detailed Forecast for the next X days
 
 ```
-http://localhost:5000/users/weather/amsterdam/3
+http://localhost:5000/weather/amsterdam/3
 ```
 
 ```json
